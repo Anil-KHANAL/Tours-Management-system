@@ -1,0 +1,166 @@
+/* the universal selector for the whole page */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+/* the entire page will follow the property */
+body{
+    height: 100%;
+    width: 100%;
+}
+/* logo will have the given property */
+#logo{
+    width: 70px;
+}
+#ul{
+    display: inline-flex;
+    margin-top: -10px;
+    font-weight: bold;
+}
+/* navigation bar will float right */
+nav{
+    float: right;    
+}
+/* when hovering the nav bar the following property utilized */
+.nav:hover{
+    background-color: #ffd700;
+    color: #0000fd;
+    border-radius: 5px;
+}
+/* the header of the page */
+#header{
+    background-color: rgb(255, 254, 254);
+    position: sticky;
+    opacity: 0.5;
+    padding: 5px;
+}
+.nav{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+
+}
+/* the background property */
+.background{
+    background-image:url("../images/Swayambhunath.jpg");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+/* the form is given the following property */
+#form{
+    text-align: center;
+    width: 380px;
+    height:400px;
+    position: relative;
+    margin: 10% auto;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+}
+/* this property is for the form */
+#login{
+    text-align: center;
+    width: 380px;
+    height:300px;
+    position: relative;
+    margin: 6.5% auto;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6)
+}
+/* the property of username, password and email */
+#uname , #pass, #email{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+/* firstname and lastname property  */
+#fname, #lname{
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+/* the property of the submit button */
+#btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer; 
+    display :block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f, #ffad0f);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+ }
+ #sign{
+     color:#0000ff;
+ }
+ /* the background image of the page */
+ .background-in{
+     background-image: url("../images/everest.jpg");
+     background-size:cover;
+    position: absolute;
+    background-repeat: no-repeat;
+ }
+/* the the property of the social-site   */
+ #s-logo{
+     font-size: 1rem;
+     color:#ffffff;
+ }
+ .form-group{
+     margin: 10px;
+ }
+ /* the social site property */
+ .social-site{
+    margin: 23px auto;
+    text-align: center; 
+}
+/* the indivisual social-site property */
+.social-site i{
+    width:40px ;
+    font-size:20px ;
+    margin: 0px 12px ;
+    box-shadow:0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 40%;
+    background-color: #ffffff;
+}
+/* changing the color of the social-site */
+.fa-facebook-f{
+    color:#3b5998;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.fa-instagram{
+    color:  #c32aa3;
+}
+.fa-youtube{
+   color: #bd081c;
+}
+  

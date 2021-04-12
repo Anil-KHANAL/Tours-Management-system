@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "pabin@gmail.com",
+      "password": "pabin",
+      "email": "pabin@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "hello",
+      "password": "helloworld",
+      "email": "world@gmail.com",
+      "id": 2
+    }
+  ]
+}
