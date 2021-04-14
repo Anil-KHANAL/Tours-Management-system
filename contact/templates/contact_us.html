@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contact Us</title>
 	<!-- css link -->
-	<link rel="stylesheet" type="text/css" href="../css/contact us.css">
+	<link rel="stylesheet" type="text/css" href="contact us.css">
     <!-- the fontawesome link for the icons -->
 	<link rel="stylesheet"
 		href="file:///C:/Users/acer/Desktop/TourManagementSystem/fontawesome-free-5.14.0-web/css/all.css">
@@ -61,19 +61,19 @@
 			<!-- the costumers detail -->
 			<div class="inputs">
 				<form id="form" method="POST">
-						{% csrf_token %}
+						<!-- {% csrf_token %} -->
 					<!-- enter the full name -->
 					<input type="text" id="fullname" placeholder="Full Name" name="Name" required/>
 					<!--  enter your email -->
 					<input type="email" id="email" placeholder="Enter Email" name="Email" required/>
 					<!-- the place where the message can be written and sent-->
-					<textarea name="message" id="message" placeholder="Write Message" name="Messages" required></textarea>
+					<textarea id="message" placeholder="Write Message" name="Messages" required></textarea>
 					<button type="submit" id="btn">SEND</button>
-					{% if messages  %}
+					<!-- {% if messages  %}
 					{% for message in messages %}
 						<h2 style="color: aliceblue;">{{message}}</h2>
 					{% endfor %}
-					{% endif %}
+					{% endif %} -->
 				</form>
 			</div>
 		</div>
