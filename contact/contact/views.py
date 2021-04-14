@@ -10,7 +10,7 @@ def Insertrecord(request):
             client.Email=request.POST.get('Email')
             client.Messages=request.POST.get('Messages')
             client.save()
-            messsages.success(request, 'Thankyou for choosing us!')
+            messages.success(request, 'Thankyou for choosing us!')
             return render(request,'contact_us.html')
-        else:
-            return render(request,'contact_us.html')
+    else:
+        return render(request,'contact_us.html')

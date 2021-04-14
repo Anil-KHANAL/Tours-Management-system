@@ -5,4 +5,4 @@ class ContactUs(models.Model):
     Email=models.CharField(max_length=100)
     Messages=models.CharField(max_length=100)
     class Meta:
-        db_table="contactus"
+        db_table="contactuspage"
