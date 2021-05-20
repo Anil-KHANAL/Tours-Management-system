@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<title>Royal Tours Management</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.html"><h1>Logo</h1></a>
+			</div>
+			<nav id="nav">
+				<div class="nav-close" id="nav-close">
+					<i class="fas fa-times"></i>
+				</div>
+				<div class="nav-item"><a href="booking.html">Booking</a></div>
+				<div class="nav-item"><a href="about.html">About</a></div>
+				<div class="nav-item"><a href="services.html">Services</a></div>
+				<div class="nav-item"><a href="contact.html">Contact</a></div>
+				<div class="nav-item"><a href="signin.html">Sign In</a></div>
+			</nav>
+			<div class="social-icons" id="social-icons">
+				<p>Social Media Icons</p>
+			</div>
+			<div class="menu-icon" id="menu-icon">
+				<i class="fas fa-bars"></i>
+			</div>
+		</header>
+		<div class="header-mark"></div>
+		<div class="booking-container">
+			<div class="booking">
+				<h2>Tour Booking</h2>
+				<form class="booking-form">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" />
+					<label for="phone">Phone Number</label>
+					<input type="tel" name="phone" id="phone" />
+					<label for="destination">Destination</label>
+					<input type="text" name="destination" id="destination" />
+					<label for="checkin">Check in</label>
+					<input type="date" name="checkin" id="checkin" />
+					<label for="checkout">Check Out</label>
+					<input type="date" name="checkout" id="checkout" />
+					<div class="numbers">
+						<div class="adults">
+							<label for="adults">Adults</label>
+							<input type="number" name="adults" id="adults" />
+						</div>
+						<div class="children">
+							<label for="children">Children</label>
+							<input type="number" name="children" id="children" />
+						</div>
+					</div>
+					<label for="message">Message</label>
+					<textarea name="message" id="message" cols="3" rows="5"></textarea>
+					<button type="submit" class="btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<p>Royal Tour Management &copy; 2021</p>
+		</footer>
+	</body>
+
+	<script src="assets/js/header.js"></script>
+</html>
