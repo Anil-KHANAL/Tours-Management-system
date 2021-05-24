@@ -168,6 +168,14 @@ nav {
 	align-items: center;
 	justify-content: center;
 }
+.social-icons img {
+	width: 3ch;
+	margin: 0.3em;
+	transition: transform 0.25s ease;
+}
+.social-icons img:hover {
+	transform: translateY(-5px);
+}
 
 .menu-icon {
 	display: none;
@@ -277,6 +285,110 @@ footer {
 }
 /* .................. */
 
+.para {
+	margin: var(--side-gap);
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.para h2 {
+	margin-bottom: 1em;
+}
+.discount {
+	margin: 0 var(--side-gap) var(--side-gap) 1em;
+	border: 1px solid var(--line-color);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	width: fit-content;
+}
+.discount-main {
+	background-color: var(--accent-color);
+	padding: 1em;
+	font-size: 170%;
+}
+.discount-info {
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	justify-content: center;
+	margin: 1em;
+}
+.discount .btn {
+	margin: 0 1em;
+	text-align: center;
+}
+.discount h2 {
+	margin: 1em;
+}
+.center {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*  */
+.services {
+	margin: var(--side-gap);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.services h1 {
+	margin: var(--side-gap);
+}
+.ser-list {
+	list-style: none;
+	padding: 0.3em;
+	border: 1px solid var(--line-color);
+}
+.ser-list li:nth-child(odd) {
+	background-color: var(--emphasis-background);
+}
+.ser-list li {
+	width: 350px;
+	padding: 0.3em;
+}
+.services img {
+	width: 350px;
+}
+/*  */
+.contact-banner {
+	background-color: var(--accent-color);
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-banner h1 {
+	font-size: 300%;
+	margin-right: 1ch;
+}
+.contact-banner .btn {
+	background-color: var(--text-primary);
+}
+/*  */
+.about {
+	margin: var(--side-gap);
+	padding: 1ch;
+	border: 1px solid var(--line-color);
+}
+.about h1 {
+	margin-bottom: 1em;
+}
+.about h1::after {
+	display: block;
+	content: ' ';
+	color: var(--accent-color);
+	width: 3ch;
+	height: 10px;
+	background-color: var(--accent-color);
+}
 /* Contact */
 .contact-container {
 	margin-top: 2em;
